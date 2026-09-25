@@ -210,7 +210,10 @@ Standard Survival Analysis
     package proposes tools to check the proportional hazards assumption
     using a standardised score process. The `r pkg("ELYP")`
     package implements empirical likelihood analysis for the Cox Model
-    and Yang-Prentice (2005) Model.
+    and Yang-Prentice (2005) Model. The `r pkg("Colossus")` package
+    fits Cox models using a highly customizable family of linear and
+    non-linear functions, specifically allowing linear Excess Relative
+    Risk models.
 -   ***Parametric Proportional Hazards Model:*** `survreg` (from
     `r pkg("survival")`) fits a parametric proportional
     hazards model. The `r pkg("eha")` and
